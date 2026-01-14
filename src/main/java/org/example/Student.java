@@ -35,7 +35,6 @@ public class Student {
         this.name = name;
     }
 
-    // Getter and Setter for age
     public int getAge() {
         return age;
     }
@@ -44,7 +43,6 @@ public class Student {
         this.age = age;
     }
 
-    // Getter and Setter for subjects
     public List<String> getSubjects() {
         return subjects;
     }

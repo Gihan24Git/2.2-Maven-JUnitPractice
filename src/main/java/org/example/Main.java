@@ -6,16 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student student = new Student();
+        Student s = new Student();
 
-        student.setId(1);
-        student.setName("john");
-        student.setAge(20);
-        student.setSubjects(Arrays.asList("Maths", "English", "History"));
+        s.setId(1);
+        s.setName("john");
+        s.setAge(20);
+        s.setSubjects(Arrays.asList("Maths", "English", "History"));
 
-        System.out.println("ID: " + student.getId());
-        System.out.println("Name: " + student.getName());
-        System.out.println("Age: " + student.getAge());
-        System.out.println("Subjects: " + student.getSubjects());
+        System.out.println("ID: " + s.getId());
+        System.out.println("Name: " + s.getName());
+        System.out.println("Age: " + s.getAge());
+        System.out.println("Subjects: " + s.getSubjects());
     }
 }
